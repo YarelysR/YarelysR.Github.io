@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="wrapper"> 
+
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/challenge.html">Challenge</a></li>
+                <li><a href="#">Recipe</a></li>
+                <li><a href="/form.html">Form</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Reserve your room</h1>
+            <h2>Our Reservation Policies</h2>
+        </header>
+
+        <section class="class">
+            <ul>
+                <li>Check in time after 3:00pm on</li>
+                <li>Check out time by 11:00am or charges are incurred</li>
+                <li>Breakfast and afternoon tea/snacks are included in cost</li>
+                <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+                <li>50% deposit required at booking</li>
+                <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+            </ul>
+        </section>
+
+        <section class="reserve">
+            <form method="post" name="reservation" data-netlify="true">
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="first name
+                    required">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="last name
+                    required">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="email required" />
+                </div>
+
+                <div>
+                    <label for="phone">Phone:</label>
+                     <input type="tel" id="phone" name="phone" placeholder="phone number required"
+                     required />
+                
+                </div>
+
+                <div>
+                    <label for="date">Check in date:</label>
+                    <input type="date" id="start" name="date">
+                </div>
+
+                <div>
+                    <label for="date">Check out date:</label>
+                    <input type="date" id="start" name="date">
+                </div>
+
+                <div>
+                    <label for="guests">Number of Guests (1-4):</label>
+                    <input type="number" id="guests" name="guests" min="1" max="4" />
+                </div>
+                <div>
+                    <label for="roomType">Room types</label>
+                    <select name="roomTypes" id="roomType">
+                        <option value="Options">Options</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="ocean">Ocean View (additional cost) </label> <br>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="oceanView" id="yes">
+                    <label for="no">No</label>
+                    <input type="radio" name="oceanView" id="no">
+                </div> <br>
+<br>
+
+                <div>
+                    <label for="list">List of allergies or Other requests</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <label for="vaccine">Upload vaccine proof</label>
+                    <input type="file" id="vaccine" name="vaccine"/>
+
+                </div>
+
+                <div>
+                    <label for="terms">I agree to all the terms listes above </label>
+                    <input type="radio" name="terms" id="terms">
+                </div>
+
+                <div>
+                    <label for="password">Create a password to return. Username is your email</label>
+                    <input type="text" name="password" id="password">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Submit"><br>
+                    <input type="submit" value="Return">
+                </div>
+                
+                <footer> &copy;2022 Inn at Snowy river <br> Stowe, VT</footer>
+
+
+
+
+            </form>
+        </section>
+
+
+
+
+    </div>
+</body>
+</html>
