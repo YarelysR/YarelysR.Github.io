@@ -1,0 +1,101 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #54473F;
+}   
+
+h1 {
+    
+    color: rgb(84, 71, 63);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline double rgb(84, 71, 63) 4px;
+}
+h1,
+h2,
+h3 {color: rgb(84, 71, 63);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline double rgb(84, 71, 63) 4px;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+h2 { font-size: 1.15;
+    text-decoration: none;
+    text-align: center;
+
+}
+h1::before,
+h1::after{
+    content: "\1F439";}
+
+h2::before,
+h2::after{
+        content: "\1F439";}
+
+
+nav {
+    font-size: 1.10;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    list-style-type: disc;
+    text-transform: capitalize;
+    text-decoration: underline double;
+    text-align: center;
+}
+
+
+nav a {
+    color: rgb(84, 71, 63);
+}
+
+nav a:hover {
+    color: rgb(171, 136, 109);
+}
+
+
+nav a:active {
+    color: rgb(214, 192, 179);
+}
+
+nav a:focus {
+    color: rgb(84, 71, 63);
+}
+
+nav li {
+    font-style: italic;
+}
+
+nav li::before{ 
+    content: "\1F439";}
+
+ nav li {
+    list-style-type: none;
+    }
+
+footer {
+    color: rgb(137, 129, 33);
+
+}
+footer p {
+    color: rgb(137, 129, 33);
+    text-align: left;
+}
+
+footer li:hover {
+    color: rgb(230, 199, 103);
+}
+
+footer li {
+    text-align: left;
+    color: rgb(137, 129, 33);
+    text-decoration-line: underline;
+    list-style-type: none;
+}
+
