@@ -161,7 +161,208 @@ footer ul{
 }
 
 
+/* media queries go below */
+
+@media (max-width: 420px){}
+
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: 0.9rem;
+
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width:90%
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+
+    }
+
+    .details,
+    .instructions,
+    .ingredients,
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+    @media (max-width: 420px) {
+
+        html {
+            line-height: 135%;
+        }
+    
+        nav a {
+            padding: 5px;
+            letter-spacing: normal;
+            font-size: 0.9rem;
+    
+        }
+    
+        nav ul {
+            padding-left: 10px;
+        }
+    
+        main {
+            width:90%;
+        }
+    
+        h1 {
+            font-size: 1.5rem;
+            text-shadow: none;
+        }
+    
+        h2 {
+            font-size: 1.2rem;
+        }
+    
+        img {
+            float: none;
+            max-width: 60%;
+            margin-left: 20%;
+        }
+    
+        .rate {
+            font-size: 1rem;
+    
+        }
+    
+        .details,
+        .instructions,
+        .ingredients,
+        .nutrition {
+            width: 90%;
+            float: none;
+        }
+    
+        .col1,
+        .col2,
+        .col3 {
+            display: block;
+            float: none;
+            width: 90%;
+        }
 
 
 
 
+    }
+
+
+    @media (max-width: 810px) {
+
+        html {
+            line-height: 150%;
+        }
+    
+        nav a {
+            padding: 30px;
+            letter-spacing: normal;
+            font-size: 2.0rem;
+    
+        }
+    
+        nav ul {
+            padding-left: 20px;
+        }
+    
+        main {
+            width: 150%;
+        }
+    
+        h1 {
+            font-size: 2.5rem;
+            text-shadow: none;
+        }
+    
+        h2 {
+            font-size: 3.0rem;
+        }
+    
+        img {
+            float: none;
+            max-width: 80%;
+            margin-left: 10%;
+        }
+    
+        .rate {
+            font-size: 2rem;
+    
+        }
+    
+        .details,
+        .instructions,
+        .ingredients,
+        .nutrition {
+            width: 100%;
+            float: left;
+        }
+    
+        .col1,
+        .col2,
+        .col3 {
+            display: block;
+            float: none;
+            width: 90%;
+        }
+
+        blockquote  {
+            clear: both;
+            width: 250px;
+            height: 250px;
+            padding: 78px 16px 0 20px;
+            border-radius: 50%;
+            background-color:bisque;
+            outline: dotted 6px  #c98226;
+            outline-offset: 10px;
+            font-family:"Croissant One", serif;
+            font-size: 1rem;
+            margin: 30px auto;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
