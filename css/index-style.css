@@ -19,11 +19,77 @@ h3 {color: rgb(84, 71, 63);
 
 }
 
+h3 {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem ;
+    color: rgb(84, 71, 63);
+    text-align: center;
+
+}
+
+
+img {
+    margin-left: 35%;
+   border-radius: 25%;
+}
+
 
 h1 {
     font-size: 2rem;
     text-align: center;
 }
+
+
+.fade-text {
+    animation: fadetxt linear 6s 10s ;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadetxt {
+
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		font-size: 1.50rem;
+	}
+
+	100% {
+		opacity: 1;
+		font-size: 2.20rem;
+    	}
+}
+
+
+.fade-textpig {
+    animation: fadetxt linear 6s 10s ;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fadetxt {
+
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		font-size: 1.25rem;
+	}
+
+	100% {
+		opacity: 1;
+		font-size: 2rem;
+    	}
+}
+
 
 
 h2 { font-size: 1.15;
@@ -50,6 +116,18 @@ nav {
     text-align: center;
     line-height: 30px;
 }
+
+.sections {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: rgb(196, 219, 159);
+
+
+}
+
+
+
 
 
 nav a {
@@ -103,3 +181,14 @@ footer li {
 body {
     background-color: rgb(242, 238, 215)
 }
+
+small,
+footer li
+ {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(196, 219, 159);
+}
+
