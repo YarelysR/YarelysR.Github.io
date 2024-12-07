@@ -10,7 +10,6 @@ html {
 * ::before ,
 * ::after {
     box-sizing: inherit;
-    
 }
 
 body {
@@ -95,7 +94,7 @@ input[type=password] {
 }
 
 textarea {
-    broder-radius: 8px;
+    border-radius: 8px;
 }
 
 input[type=checkbox],
